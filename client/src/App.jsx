@@ -23,7 +23,7 @@ const App = () => {
         <Route path='/seatlayout' element={<SeatLayout />} /> 
       </Routes>
       {!isAdminRoute && <Footer />}
-        
+
     </div>
   )
 }
